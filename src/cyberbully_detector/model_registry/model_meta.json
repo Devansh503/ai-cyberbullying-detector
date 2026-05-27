@@ -1,0 +1,39 @@
+{
+  "winner": "svm",
+  "type": "ml",
+  "metrics": {
+    "f1_macro": 0.7201415024197475,
+    "report": {
+      "0": {
+        "precision": 0.7575757575757576,
+        "recall": 0.4849137931034483,
+        "f1-score": 0.5913272010512484,
+        "support": 464.0
+      },
+      "1": {
+        "precision": 0.7852650494159928,
+        "recall": 0.9238900634249472,
+        "f1-score": 0.8489558037882468,
+        "support": 946.0
+      },
+      "accuracy": 0.7794326241134751,
+      "macro avg": {
+        "precision": 0.7714204034958752,
+        "recall": 0.7044019282641978,
+        "f1-score": 0.7201415024197475,
+        "support": 1410.0
+      },
+      "weighted avg": {
+        "precision": 0.776153112243036,
+        "recall": 0.7794326241134751,
+        "f1-score": 0.7641758948024544,
+        "support": 1410.0
+      }
+    }
+  },
+  "path": "ml_pipeline.joblib",
+  "label_classes": [
+    "harassment",
+    "not_cyberbullying"
+  ]
+}
